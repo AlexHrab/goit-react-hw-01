@@ -1,30 +1,30 @@
-import "./Profile.css"
+import css from "./Profile.module.css"
 
 function Profile(props){
 return (
-    <div className="container">
-<div className="sub-container">
-<img className="image"
+    <div className={css.container}>
+<div className={css.sub}>
+<img className={css.image}
 src={props.image}
 alt={props.name}
 />
-<p className="name">{props.name}</p>
-<p className="tag">@{props.tag}</p>
-<p className="location">{props.location}</p>
+<p className={css.name}>{props.name}</p>
+<p className={css.tag}>@{props.tag}</p>
+<p className={css.location}>{props.location}</p>
 </div>
 
-<ul className="list">
-<li className="item">
+<ul className={css.list}>
+<li className={css.item}>
 <span>Followers</span>
-<span className="followers">{props.stats.followers}</span>
+<span className={css.followers}>{props.stats.followers}</span>
 </li>
-<li className="item">
+<li className={css.item}>
 <span>Views</span>
-<span className="views">{props.stats.views}</span>
+<span className={css.views}>{props.stats.views}</span>
 </li>
-<li className="item">
+<li className={css.item}>
 <span>Likes</span>
-<span className="likes">{props.stats.likes}</span>
+<span className={css.likes}>{props.stats.likes}</span>
 </li>
 </ul>
 </div>

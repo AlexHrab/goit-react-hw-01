@@ -24,13 +24,13 @@
     padding: 30px;
 }
 
-.box-image{
+.image{
     width: 150px;
     height: 150px;
     margin-bottom: auto;
 }
 
-.box-name{
+.name{
     margin: 0;
     font-size: 52px;
     font-weight: 400;

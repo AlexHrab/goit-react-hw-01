@@ -11,7 +11,7 @@
     overflow: hidden;
 }
 
-.sub-container{
+.sub{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
